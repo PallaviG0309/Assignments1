@@ -1,1 +1,37 @@
-create file
+Q- What is basic difference between Logical and Bitwise operators?
+A-  Bitwaise Operator -1)Bitwise operator is the type of operator provided by the programming language to perform computations.
+                       2)Bitwise operators work on bits and perform bit by bit operations.
+                       3)Bitwise operators are &, |, ^, ~, <<, >>.
+                       4)It return an integer. 
+                       5)Bitwise operators work on binary digits of integer values (long, int, short, char, and byte) 
+                       
+   Logical Operator -  1)Logical Operator is a type of operator provided by the programming language to perform logic-based operations.
+                       2)Logical operators are used to making a decision based on multiple conditions.
+                       3)Logical operators are &&, ||, !
+                       4)It returns boolean values (True or False).
+                       5)Logical operators work on boolean expressions.
+                       
+Q- Which Operator is better? Bitwise and Logical. also write reasons?
+A- Both the operators can be used in different scenarios, logical operators are more likely to be used when making a decision based program whereas bitwise operators 
+   are often found when working on bit level.Although Bitwise operator has a speed advantage it lacks some function of  working with float or boolean values, hence 
+   both operators are eqally important, rather than choosing one over other, its better to use them where they are better suited.
+
+Q- Explain 3 exmaples which shows logical operator usage better instead of bitwise?
+A- case a) suppose we require an AND operator in (5 > 10) && (20 > 5), here the logical operator will provide a answer just by left statement 
+           (which is false in this case) and wont go to right hand side,whereas a bitwise operator would have to check both sides.
+Q- What is reserve Keyword?
+A- Reserved keywords are reserved words in Java that serve as a code key. These words can't be used for anything else because they're predefined.
+    They can't be used as a variable name, object name, or any other identifier. 
+    
+Q- How many keywords available in java?
+A- Currently there are 67 reserved terms or keywords in Java.
+    ex   abstract	,continue	,for ,new, switch, finally , for
+         assert, default, goto , package, synchronized
+         boolean, do , if	,private, this, Public, Package
+         break, double, implements, protected, throw
+         
+Q- Why java consider goto as keyword?
+A- Java keyword list specifies the goto keyword, but it is marked as "not used".It was in the original JVM, but then removed. It was probably kept as a reserved
+    keyword in case it were to be added to a later version of Java.If goto was not on the list, and it gets added to the language later on, existing code that used
+    the word goto as an identifier (variable name, method name, etc...) would break. But because goto is a keyword, such code will not even compile in the present,
+    and it remains possible to make it actually do something later on, without breaking existing code.
